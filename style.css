@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: "Inter", sans-serif;
+}
+
+h2 {
+	font-weight: 600;
+	font-family: "Inter", sans-serif;
+}
+.width-full {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+#title {
+	background-image: linear-gradient(to bottom right, #818cf8, #22d3ee);
+	/* background-clip: text; */
+	/* -webkit-text-fill-color: transparent; */
+	/* -webkit-background-clip: text; */
+	background-color: #818cf8;
+	color: transparent;
+}
+.main-container, .second-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-container .title-tag {
+ color: rgb(71, 84, 197);
+}
+
+.second-main-container {
+    border: 2px solid gray;
+    border-radius: 0.3rem;
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 440px;
+    padding: 2rem; 
+    overflow: hidden;
+}
+.second-main-container input[type="text"], input[type="password"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.7rem 0;
+    border-radius: 0.3rem;
+    border: 1px solid gray;
+    margin: 0.4rem 0;
+}
+.second-main-container .remeber-pass-section {
+    width: 100%;
+    margin: .5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.second-main-container .remeber-pass-section span {
+    padding: 0 0.3rem;
+}
+.second-main-container .signin-btn {
+    width: 100%;
+    padding: 0.6rem 0;
+    margin: 2rem 0;
+    background-color: rgb(71, 84, 197);
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+}
+.semi-title {
+    position: relative;
+}
+.semi-title::after {
+    position: absolute;
+    content: '';
+    background-color: gray;
+    width: 100%;
+    bottom: 7px;
+    left: 138px;
+    height: 0.1rem;
+    opacity: 0.5;
+}
+
+.semi-title::before {
+    position: absolute;
+    content: '';
+    background-color: gray;
+    width: 100%;
+    bottom: 7px;
+    right: 138px;
+    height: 0.1rem;
+    opacity: 0.5;
+}
+
+.link-btn-container {
+    display: flex;
+    margin: 2rem 0;
+}
+.link-btn-container button {
+    margin-left: 0.5rem;
+    padding: 0.6rem 3rem;
+    border-radius: 0.3rem;
+    border: 1px solid gray;
+    background-color: white;
+}
+.terms {
+    font-size: 0.8rem;
+    margin: 0.9rem 0;
+}
